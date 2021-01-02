@@ -1,6 +1,7 @@
-const generateLocationMessage = (url) => {
+const generateLocationMessage = (url, user) => {
     return {
         url : url,
+        user : user,
         createdAt: new Date().getTime()
     }
 }
